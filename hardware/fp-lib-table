@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "DRV8871DDAR")(type "KiCad")(uri "/Users/djaeyoung/Documents/Robowrestling/DRV8871DDAR/DRV8871DDAR.pretty")(options "")(descr ""))
+  (lib (name "L7805CV")(type "KiCad")(uri "/Users/djaeyoung/Documents/Robowrestling/L7805CV/L7805CV.pretty")(options "")(descr ""))
+  (lib (name "ROB-14450")(type "KiCad")(uri "/Users/djaeyoung/Documents/Robowrestling/ROB-14450/ROB-14450.pretty")(options "")(descr ""))
+  (lib (name "blue_pill")(type "KiCad")(uri "/Users/djaeyoung/Documents/Robowrestling/blue-pill-kicad-master/blue_pill.pretty")(options "")(descr ""))
+)
