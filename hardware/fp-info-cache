@@ -1,4 +1,4 @@
-24742627678902990
+24735720720009135
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55229,13 +55229,6 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
-DRV8871DDAR
-VREG_LM5017MR_NOPB
-
-
-0
-17
-17
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -64648,13 +64641,6 @@ Jumper
 SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels
 SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open, labeled with numbers
 solder jumper open
-0
-3
-3
-L7805CV
-TO255P1040X460X1968-3
-
-
 0
 3
 3
@@ -88920,13 +88906,6 @@ WiFi IEEE802.11 b/g/n
 0
 44
 44
-ROB-14450
-MODULE_ROB-14450
-
-
-0
-16
-16
 Relay_SMD
 Relay_2P2T_10x6mm_TE_IMxxG
 Signal Relay, 10x6mm, 2 Form C, Gull Wings, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F108-98001%7FZ.1%7Fpdf%7FEnglish%7FENG_DS_108-98001_Z.1.pdf
@@ -99532,10 +99511,3 @@ Varistor VF
 0
 2
 2
-blue_pill
-blue_pill
-
-
-0
-46
-39
