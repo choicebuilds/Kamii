@@ -2649,7 +2649,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U3"
-				(at 5.9533 26.67 0)
+				(at 6.096 24.892 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -2658,7 +2658,7 @@
 				)
 			)
 			(property "Value" "BP"
-				(at 5.9533 24.13 0)
+				(at 6.096 22.86 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -3016,14 +3016,14 @@
 				(pin input line
 					(at -3.81 -26.67 90)
 					(length 5.08)
-					(name "BOOT0"
+					(name "SWO"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "BOOT"
+					(number "SWO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3034,14 +3034,14 @@
 				(pin input line
 					(at -1.27 -26.67 90)
 					(length 5.08)
-					(name "BOOT1"
+					(name "SWCLK"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "PB2"
+					(number "SWCLK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4185,11 +4185,37 @@
 		)
 		(uuid "fdb15478-0ee3-4a39-ad60-1e836922a303")
 	)
+	(text_box "Note: Create a GND pour directly under the chip and route external thermal vias to avoid via-in-pad."
+		(exclude_from_sim no)
+		(at 86.36 177.8 0)
+		(size 22.86 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "fa4284e3-6990-4a9c-9803-9f15195e6b01")
+	)
 	(junction
 		(at 158.75 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b00b29c-bd47-4775-a2c6-cb0aef602143")
+	)
+	(junction
+		(at 64.77 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c06bfca-0485-4dbc-8e1c-de591400848f")
 	)
 	(junction
 		(at 35.56 59.69)
@@ -4220,6 +4246,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e2954e2-b2c5-4a42-88e4-5f179b3fe069")
+	)
+	(junction
+		(at 143.51 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33fbf1c3-7f44-4680-b91d-b6ab2d819b2e")
 	)
 	(junction
 		(at 166.37 128.27)
@@ -4444,10 +4476,6 @@
 		(uuid "fc96dd18-13cd-4ff6-8a1a-efaab0574440")
 	)
 	(no_connect
-		(at 142.24 161.29)
-		(uuid "2eaa8133-499b-44af-8d4c-58f3a865092e")
-	)
-	(no_connect
 		(at 95.25 132.08)
 		(uuid "4803b875-40c4-4016-a098-403c565f9d7d")
 	)
@@ -4486,10 +4514,6 @@
 	(no_connect
 		(at 80.01 87.63)
 		(uuid "d3cec68e-3c93-4755-89e2-a75d5d30854f")
-	)
-	(no_connect
-		(at 63.5 161.29)
-		(uuid "f0ec9604-2a6d-4b9a-825f-cc4bf3396cc8")
 	)
 	(no_connect
 		(at 95.25 78.74)
@@ -4632,6 +4656,16 @@
 			(type default)
 		)
 		(uuid "25d47762-ffce-4092-9b24-1fd9c17fe011")
+	)
+	(wire
+		(pts
+			(xy 143.51 179.07) (xy 152.4 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "263761dc-7173-4db7-a56f-fcb50d4eb3ad")
 	)
 	(wire
 		(pts
@@ -4825,6 +4859,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 161.29) (xy 143.51 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f1aa11f-e271-49d9-9e8e-cac997205a89")
+	)
+	(wire
+		(pts
 			(xy 27.94 81.28) (xy 35.56 81.28)
 		)
 		(stroke
@@ -5015,6 +5059,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 179.07) (xy 73.66 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a3a6bd6-dd87-41bb-9d82-cfff3fbe6bed")
+	)
+	(wire
+		(pts
 			(xy 147.32 80.01) (xy 156.21 80.01)
 		)
 		(stroke
@@ -5075,7 +5129,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 179.07) (xy 73.66 179.07)
+			(xy 63.5 179.07) (xy 64.77 179.07)
 		)
 		(stroke
 			(width 0)
@@ -5685,6 +5739,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 161.29) (xy 143.51 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc68489b-19ae-4fbd-a7a5-134ebffc02c9")
+	)
+	(wire
+		(pts
 			(xy 31.75 73.66) (xy 35.56 73.66)
 		)
 		(stroke
@@ -5735,7 +5799,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 179.07) (xy 152.4 179.07)
+			(xy 142.24 179.07) (xy 143.51 179.07)
 		)
 		(stroke
 			(width 0)
@@ -5842,6 +5906,16 @@
 			(type default)
 		)
 		(uuid "de42b2f6-75b2-4bbb-a7ba-92e954a44f1b")
+	)
+	(wire
+		(pts
+			(xy 63.5 161.29) (xy 64.77 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df1a9de7-4a18-47b5-ad91-efc56df1a371")
 	)
 	(wire
 		(pts
@@ -5992,6 +6066,16 @@
 			(type default)
 		)
 		(uuid "fafac3c5-8013-4a93-955d-6d03d64da977")
+	)
+	(wire
+		(pts
+			(xy 64.77 161.29) (xy 64.77 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb627f94-8037-407d-b9a6-f7747dbc92fa")
 	)
 	(wire
 		(pts
@@ -14124,10 +14208,10 @@
 		(pin "VBAT"
 			(uuid "ef81a100-3724-44e0-a00e-593e87b163f4")
 		)
-		(pin "BOOT"
+		(pin "SWCLK"
 			(uuid "1376572d-0d85-402b-a55d-f4a4b164d2bf")
 		)
-		(pin "PB2"
+		(pin "SWO"
 			(uuid "d8ecf7d7-8834-4cea-8523-77b431ecfba5")
 		)
 		(instances
