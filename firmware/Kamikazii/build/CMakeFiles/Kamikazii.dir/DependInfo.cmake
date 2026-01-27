@@ -21,6 +21,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
+  "/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/App/Inc"
   "/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/cmake/stm32cubemx/../../Core/Inc"
   "/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
   "/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc"
@@ -30,6 +31,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/App/Src/robot_main.c" "CMakeFiles/Kamikazii.dir/App/Src/robot_main.c.obj" "gcc" "CMakeFiles/Kamikazii.dir/App/Src/robot_main.c.obj.d"
   "/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/main.c" "CMakeFiles/Kamikazii.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/Kamikazii.dir/Core/Src/main.c.obj.d"
   "/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/stm32f1xx_hal_msp.c" "CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_hal_msp.c.obj" "gcc" "CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_hal_msp.c.obj.d"
   "/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/stm32f1xx_it.c" "CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_it.c.obj" "gcc" "CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_it.c.obj.d"

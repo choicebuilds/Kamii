@@ -1,5 +1,6 @@
-CMakeFiles/Kamikazii.dir/Core/Src/main.c.obj: \
- /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/main.c \
+CMakeFiles/Kamikazii.dir/App/Src/robot_main.c.obj: \
+ /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/App/Src/robot_main.c \
+ /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/App/Inc/robot_main.h \
  /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/cmake/stm32cubemx/../../Core/Inc/main.h \
  /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
  /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/cmake/stm32cubemx/../../Core/Inc/stm32f1xx_hal_conf.h \
@@ -24,5 +25,4 @@ CMakeFiles/Kamikazii.dir/Core/Src/main.c.obj: \
  /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
  /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
  /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
- /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
- /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/App/Inc/robot_main.h
+ /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h

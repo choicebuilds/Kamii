@@ -98,12 +98,12 @@ cmake/stm32cubemx/clean: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/clean
 CMakeFiles/Kamikazii.dir/all: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Kamikazii.dir/build.make CMakeFiles/Kamikazii.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Kamikazii.dir/build.make CMakeFiles/Kamikazii.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target Kamikazii"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target Kamikazii"
 .PHONY : CMakeFiles/Kamikazii.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Kamikazii.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Kamikazii.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/CMakeFiles 0
 .PHONY : CMakeFiles/Kamikazii.dir/rule
@@ -124,7 +124,7 @@ CMakeFiles/Kamikazii.dir/clean:
 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/all:
 	$(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/depend
 	$(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/CMakeFiles --progress-num=8,9,10,11,12,13,14,15,16,17,18,19 "Built target STM32_Drivers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/CMakeFiles --progress-num=9,10,11,12,13,14,15,16,17,18,19,20 "Built target STM32_Drivers"
 .PHONY : cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/all
 
 # Build rule for subdir invocation for target.

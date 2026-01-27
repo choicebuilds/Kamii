@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "Kamikazii.map"
+  "CMakeFiles/Kamikazii.dir/App/Src/robot_main.c.obj"
+  "CMakeFiles/Kamikazii.dir/App/Src/robot_main.c.obj.d"
   "CMakeFiles/Kamikazii.dir/Core/Src/main.c.obj"
   "CMakeFiles/Kamikazii.dir/Core/Src/main.c.obj.d"
   "CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_hal_msp.c.obj"

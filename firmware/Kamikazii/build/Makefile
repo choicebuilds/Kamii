@@ -142,6 +142,30 @@ STM32_Drivers/fast:
 	$(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build
 .PHONY : STM32_Drivers/fast
 
+App/Src/robot_main.obj: App/Src/robot_main.c.obj
+.PHONY : App/Src/robot_main.obj
+
+# target to build an object file
+App/Src/robot_main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Kamikazii.dir/build.make CMakeFiles/Kamikazii.dir/App/Src/robot_main.c.obj
+.PHONY : App/Src/robot_main.c.obj
+
+App/Src/robot_main.i: App/Src/robot_main.c.i
+.PHONY : App/Src/robot_main.i
+
+# target to preprocess a source file
+App/Src/robot_main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Kamikazii.dir/build.make CMakeFiles/Kamikazii.dir/App/Src/robot_main.c.i
+.PHONY : App/Src/robot_main.c.i
+
+App/Src/robot_main.s: App/Src/robot_main.c.s
+.PHONY : App/Src/robot_main.s
+
+# target to generate assembly for a file
+App/Src/robot_main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Kamikazii.dir/build.make CMakeFiles/Kamikazii.dir/App/Src/robot_main.c.s
+.PHONY : App/Src/robot_main.c.s
+
 Core/Src/main.obj: Core/Src/main.c.obj
 .PHONY : Core/Src/main.obj
 
@@ -280,6 +304,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Kamikazii"
 	@echo "... STM32_Drivers"
+	@echo "... App/Src/robot_main.obj"
+	@echo "... App/Src/robot_main.i"
+	@echo "... App/Src/robot_main.s"
 	@echo "... Core/Src/main.obj"
 	@echo "... Core/Src/main.i"
 	@echo "... Core/Src/main.s"
