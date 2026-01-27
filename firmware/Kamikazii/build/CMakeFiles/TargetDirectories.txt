@@ -1,0 +1,6 @@
+/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/CMakeFiles/Kamikazii.dir
+/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/CMakeFiles/edit_cache.dir
+/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/CMakeFiles/rebuild_cache.dir
+/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
+/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/cmake/stm32cubemx/CMakeFiles/edit_cache.dir
+/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/cmake/stm32cubemx/CMakeFiles/rebuild_cache.dir
