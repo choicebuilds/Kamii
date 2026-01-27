@@ -12,6 +12,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.28.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeSystem.cmake"
+  "/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/cmake/gcc-arm-none-eabi.cmake"
   "/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/cmake/stm32cubemx/CMakeLists.txt"
   "/usr/share/cmake-3.28/Modules/CMakeASMCompiler.cmake.in"
   "/usr/share/cmake-3.28/Modules/CMakeASMInformation.cmake"
@@ -106,13 +107,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.28/Modules/Compiler/zOS-C-DetermineCompiler.cmake"
   "/usr/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake"
   "/usr/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake"
-  "/usr/share/cmake-3.28/Modules/Platform/Linux-Determine-CXX.cmake"
-  "/usr/share/cmake-3.28/Modules/Platform/Linux-GNU-C.cmake"
-  "/usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake"
-  "/usr/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake"
-  "/usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake"
-  "/usr/share/cmake-3.28/Modules/Platform/Linux.cmake"
-  "/usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake"
+  "/usr/share/cmake-3.28/Modules/Platform/Generic.cmake"
   )
 
 # The corresponding makefile is:

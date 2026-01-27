@@ -69,138 +69,138 @@ include CMakeFiles/Kamikazii.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Kamikazii.dir/flags.make
 
-CMakeFiles/Kamikazii.dir/Core/Src/main.c.o: CMakeFiles/Kamikazii.dir/flags.make
-CMakeFiles/Kamikazii.dir/Core/Src/main.c.o: /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/main.c
-CMakeFiles/Kamikazii.dir/Core/Src/main.c.o: CMakeFiles/Kamikazii.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Kamikazii.dir/Core/Src/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Kamikazii.dir/Core/Src/main.c.o -MF CMakeFiles/Kamikazii.dir/Core/Src/main.c.o.d -o CMakeFiles/Kamikazii.dir/Core/Src/main.c.o -c /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/main.c
+CMakeFiles/Kamikazii.dir/Core/Src/main.c.obj: CMakeFiles/Kamikazii.dir/flags.make
+CMakeFiles/Kamikazii.dir/Core/Src/main.c.obj: /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/main.c
+CMakeFiles/Kamikazii.dir/Core/Src/main.c.obj: CMakeFiles/Kamikazii.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Kamikazii.dir/Core/Src/main.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Kamikazii.dir/Core/Src/main.c.obj -MF CMakeFiles/Kamikazii.dir/Core/Src/main.c.obj.d -o CMakeFiles/Kamikazii.dir/Core/Src/main.c.obj -c /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/main.c
 
 CMakeFiles/Kamikazii.dir/Core/Src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Kamikazii.dir/Core/Src/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/main.c > CMakeFiles/Kamikazii.dir/Core/Src/main.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/main.c > CMakeFiles/Kamikazii.dir/Core/Src/main.c.i
 
 CMakeFiles/Kamikazii.dir/Core/Src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Kamikazii.dir/Core/Src/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/main.c -o CMakeFiles/Kamikazii.dir/Core/Src/main.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/main.c -o CMakeFiles/Kamikazii.dir/Core/Src/main.c.s
 
-CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_it.c.o: CMakeFiles/Kamikazii.dir/flags.make
-CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_it.c.o: /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/stm32f1xx_it.c
-CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_it.c.o: CMakeFiles/Kamikazii.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_it.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_it.c.o -MF CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_it.c.o.d -o CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_it.c.o -c /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/stm32f1xx_it.c
+CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_it.c.obj: CMakeFiles/Kamikazii.dir/flags.make
+CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_it.c.obj: /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/stm32f1xx_it.c
+CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_it.c.obj: CMakeFiles/Kamikazii.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_it.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_it.c.obj -MF CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_it.c.obj.d -o CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_it.c.obj -c /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/stm32f1xx_it.c
 
 CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_it.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_it.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/stm32f1xx_it.c > CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_it.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/stm32f1xx_it.c > CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_it.c.i
 
 CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_it.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_it.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/stm32f1xx_it.c -o CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_it.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/stm32f1xx_it.c -o CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_it.c.s
 
-CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_hal_msp.c.o: CMakeFiles/Kamikazii.dir/flags.make
-CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_hal_msp.c.o: /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/stm32f1xx_hal_msp.c
-CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_hal_msp.c.o: CMakeFiles/Kamikazii.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_hal_msp.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_hal_msp.c.o -MF CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_hal_msp.c.o.d -o CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_hal_msp.c.o -c /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/stm32f1xx_hal_msp.c
+CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_hal_msp.c.obj: CMakeFiles/Kamikazii.dir/flags.make
+CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_hal_msp.c.obj: /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/stm32f1xx_hal_msp.c
+CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_hal_msp.c.obj: CMakeFiles/Kamikazii.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_hal_msp.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_hal_msp.c.obj -MF CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_hal_msp.c.obj.d -o CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_hal_msp.c.obj -c /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/stm32f1xx_hal_msp.c
 
 CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_hal_msp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_hal_msp.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/stm32f1xx_hal_msp.c > CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_hal_msp.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/stm32f1xx_hal_msp.c > CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_hal_msp.c.i
 
 CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_hal_msp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_hal_msp.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/stm32f1xx_hal_msp.c -o CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_hal_msp.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/stm32f1xx_hal_msp.c -o CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_hal_msp.c.s
 
-CMakeFiles/Kamikazii.dir/Core/Src/sysmem.c.o: CMakeFiles/Kamikazii.dir/flags.make
-CMakeFiles/Kamikazii.dir/Core/Src/sysmem.c.o: /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/sysmem.c
-CMakeFiles/Kamikazii.dir/Core/Src/sysmem.c.o: CMakeFiles/Kamikazii.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Kamikazii.dir/Core/Src/sysmem.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Kamikazii.dir/Core/Src/sysmem.c.o -MF CMakeFiles/Kamikazii.dir/Core/Src/sysmem.c.o.d -o CMakeFiles/Kamikazii.dir/Core/Src/sysmem.c.o -c /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/sysmem.c
+CMakeFiles/Kamikazii.dir/Core/Src/sysmem.c.obj: CMakeFiles/Kamikazii.dir/flags.make
+CMakeFiles/Kamikazii.dir/Core/Src/sysmem.c.obj: /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/sysmem.c
+CMakeFiles/Kamikazii.dir/Core/Src/sysmem.c.obj: CMakeFiles/Kamikazii.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Kamikazii.dir/Core/Src/sysmem.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Kamikazii.dir/Core/Src/sysmem.c.obj -MF CMakeFiles/Kamikazii.dir/Core/Src/sysmem.c.obj.d -o CMakeFiles/Kamikazii.dir/Core/Src/sysmem.c.obj -c /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/sysmem.c
 
 CMakeFiles/Kamikazii.dir/Core/Src/sysmem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Kamikazii.dir/Core/Src/sysmem.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/sysmem.c > CMakeFiles/Kamikazii.dir/Core/Src/sysmem.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/sysmem.c > CMakeFiles/Kamikazii.dir/Core/Src/sysmem.c.i
 
 CMakeFiles/Kamikazii.dir/Core/Src/sysmem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Kamikazii.dir/Core/Src/sysmem.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/sysmem.c -o CMakeFiles/Kamikazii.dir/Core/Src/sysmem.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/sysmem.c -o CMakeFiles/Kamikazii.dir/Core/Src/sysmem.c.s
 
-CMakeFiles/Kamikazii.dir/Core/Src/syscalls.c.o: CMakeFiles/Kamikazii.dir/flags.make
-CMakeFiles/Kamikazii.dir/Core/Src/syscalls.c.o: /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/syscalls.c
-CMakeFiles/Kamikazii.dir/Core/Src/syscalls.c.o: CMakeFiles/Kamikazii.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Kamikazii.dir/Core/Src/syscalls.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Kamikazii.dir/Core/Src/syscalls.c.o -MF CMakeFiles/Kamikazii.dir/Core/Src/syscalls.c.o.d -o CMakeFiles/Kamikazii.dir/Core/Src/syscalls.c.o -c /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/syscalls.c
+CMakeFiles/Kamikazii.dir/Core/Src/syscalls.c.obj: CMakeFiles/Kamikazii.dir/flags.make
+CMakeFiles/Kamikazii.dir/Core/Src/syscalls.c.obj: /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/syscalls.c
+CMakeFiles/Kamikazii.dir/Core/Src/syscalls.c.obj: CMakeFiles/Kamikazii.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Kamikazii.dir/Core/Src/syscalls.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Kamikazii.dir/Core/Src/syscalls.c.obj -MF CMakeFiles/Kamikazii.dir/Core/Src/syscalls.c.obj.d -o CMakeFiles/Kamikazii.dir/Core/Src/syscalls.c.obj -c /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/syscalls.c
 
 CMakeFiles/Kamikazii.dir/Core/Src/syscalls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Kamikazii.dir/Core/Src/syscalls.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/syscalls.c > CMakeFiles/Kamikazii.dir/Core/Src/syscalls.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/syscalls.c > CMakeFiles/Kamikazii.dir/Core/Src/syscalls.c.i
 
 CMakeFiles/Kamikazii.dir/Core/Src/syscalls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Kamikazii.dir/Core/Src/syscalls.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/syscalls.c -o CMakeFiles/Kamikazii.dir/Core/Src/syscalls.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/syscalls.c -o CMakeFiles/Kamikazii.dir/Core/Src/syscalls.c.s
 
-CMakeFiles/Kamikazii.dir/startup_stm32f103xb.s.o: CMakeFiles/Kamikazii.dir/flags.make
-CMakeFiles/Kamikazii.dir/startup_stm32f103xb.s.o: /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/startup_stm32f103xb.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building ASM object CMakeFiles/Kamikazii.dir/startup_stm32f103xb.s.o"
-	/usr/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/Kamikazii.dir/startup_stm32f103xb.s.o -c /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/startup_stm32f103xb.s
+CMakeFiles/Kamikazii.dir/startup_stm32f103xb.s.obj: CMakeFiles/Kamikazii.dir/flags.make
+CMakeFiles/Kamikazii.dir/startup_stm32f103xb.s.obj: /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/startup_stm32f103xb.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building ASM object CMakeFiles/Kamikazii.dir/startup_stm32f103xb.s.obj"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/Kamikazii.dir/startup_stm32f103xb.s.obj -c /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/startup_stm32f103xb.s
 
 CMakeFiles/Kamikazii.dir/startup_stm32f103xb.s.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/Kamikazii.dir/startup_stm32f103xb.s.i"
-	/usr/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/startup_stm32f103xb.s > CMakeFiles/Kamikazii.dir/startup_stm32f103xb.s.i
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/startup_stm32f103xb.s > CMakeFiles/Kamikazii.dir/startup_stm32f103xb.s.i
 
 CMakeFiles/Kamikazii.dir/startup_stm32f103xb.s.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/Kamikazii.dir/startup_stm32f103xb.s.s"
-	/usr/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/startup_stm32f103xb.s -o CMakeFiles/Kamikazii.dir/startup_stm32f103xb.s.s
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/startup_stm32f103xb.s -o CMakeFiles/Kamikazii.dir/startup_stm32f103xb.s.s
 
 # Object files for target Kamikazii
 Kamikazii_OBJECTS = \
-"CMakeFiles/Kamikazii.dir/Core/Src/main.c.o" \
-"CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_it.c.o" \
-"CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_hal_msp.c.o" \
-"CMakeFiles/Kamikazii.dir/Core/Src/sysmem.c.o" \
-"CMakeFiles/Kamikazii.dir/Core/Src/syscalls.c.o" \
-"CMakeFiles/Kamikazii.dir/startup_stm32f103xb.s.o"
+"CMakeFiles/Kamikazii.dir/Core/Src/main.c.obj" \
+"CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_it.c.obj" \
+"CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_hal_msp.c.obj" \
+"CMakeFiles/Kamikazii.dir/Core/Src/sysmem.c.obj" \
+"CMakeFiles/Kamikazii.dir/Core/Src/syscalls.c.obj" \
+"CMakeFiles/Kamikazii.dir/startup_stm32f103xb.s.obj"
 
 # External object files for target Kamikazii
 Kamikazii_EXTERNAL_OBJECTS = \
-"/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.o" \
-"/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.o" \
-"/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.o" \
-"/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.o" \
-"/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.o" \
-"/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.o" \
-"/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.o" \
-"/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.o" \
-"/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.o" \
-"/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.o" \
-"/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.o" \
-"/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.o"
+"/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj" \
+"/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj" \
+"/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj" \
+"/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj" \
+"/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj" \
+"/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj" \
+"/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj" \
+"/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj" \
+"/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj" \
+"/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj" \
+"/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj" \
+"/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
 
-Kamikazii: CMakeFiles/Kamikazii.dir/Core/Src/main.c.o
-Kamikazii: CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_it.c.o
-Kamikazii: CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_hal_msp.c.o
-Kamikazii: CMakeFiles/Kamikazii.dir/Core/Src/sysmem.c.o
-Kamikazii: CMakeFiles/Kamikazii.dir/Core/Src/syscalls.c.o
-Kamikazii: CMakeFiles/Kamikazii.dir/startup_stm32f103xb.s.o
-Kamikazii: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.o
-Kamikazii: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.o
-Kamikazii: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.o
-Kamikazii: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.o
-Kamikazii: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.o
-Kamikazii: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.o
-Kamikazii: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.o
-Kamikazii: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.o
-Kamikazii: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.o
-Kamikazii: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.o
-Kamikazii: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.o
-Kamikazii: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.o
-Kamikazii: CMakeFiles/Kamikazii.dir/build.make
-Kamikazii: CMakeFiles/Kamikazii.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable Kamikazii"
+Kamikazii.elf: CMakeFiles/Kamikazii.dir/Core/Src/main.c.obj
+Kamikazii.elf: CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_it.c.obj
+Kamikazii.elf: CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+Kamikazii.elf: CMakeFiles/Kamikazii.dir/Core/Src/sysmem.c.obj
+Kamikazii.elf: CMakeFiles/Kamikazii.dir/Core/Src/syscalls.c.obj
+Kamikazii.elf: CMakeFiles/Kamikazii.dir/startup_stm32f103xb.s.obj
+Kamikazii.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
+Kamikazii.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj
+Kamikazii.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+Kamikazii.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+Kamikazii.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
+Kamikazii.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+Kamikazii.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+Kamikazii.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+Kamikazii.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj
+Kamikazii.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj
+Kamikazii.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj
+Kamikazii.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj
+Kamikazii.elf: CMakeFiles/Kamikazii.dir/build.make
+Kamikazii.elf: CMakeFiles/Kamikazii.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable Kamikazii.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Kamikazii.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/Kamikazii.dir/build: Kamikazii
+CMakeFiles/Kamikazii.dir/build: Kamikazii.elf
 .PHONY : CMakeFiles/Kamikazii.dir/build
 
 CMakeFiles/Kamikazii.dir/clean:

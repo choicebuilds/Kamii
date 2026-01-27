@@ -130,13 +130,13 @@ STM32_Drivers/fast:
 	cd /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build
 .PHONY : STM32_Drivers/fast
 
-__/__/Core/Src/system_stm32f1xx.o: __/__/Core/Src/system_stm32f1xx.c.o
-.PHONY : __/__/Core/Src/system_stm32f1xx.o
+__/__/Core/Src/system_stm32f1xx.obj: __/__/Core/Src/system_stm32f1xx.c.obj
+.PHONY : __/__/Core/Src/system_stm32f1xx.obj
 
 # target to build an object file
-__/__/Core/Src/system_stm32f1xx.c.o:
-	cd /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.o
-.PHONY : __/__/Core/Src/system_stm32f1xx.c.o
+__/__/Core/Src/system_stm32f1xx.c.obj:
+	cd /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
+.PHONY : __/__/Core/Src/system_stm32f1xx.c.obj
 
 __/__/Core/Src/system_stm32f1xx.i: __/__/Core/Src/system_stm32f1xx.c.i
 .PHONY : __/__/Core/Src/system_stm32f1xx.i
@@ -154,13 +154,13 @@ __/__/Core/Src/system_stm32f1xx.c.s:
 	cd /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.s
 .PHONY : __/__/Core/Src/system_stm32f1xx.c.s
 
-__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o: __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.o
-.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
+__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.obj: __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.obj
 
 # target to build an object file
-__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.o:
-	cd /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.o
-.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.o
+__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj:
+	cd /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
 
 __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.i: __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.i
 .PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.i
@@ -178,13 +178,13 @@ __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.s:
 	cd /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.s
 .PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.s
 
-__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o: __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.o
-.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
+__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.obj: __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.obj
 
 # target to build an object file
-__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.o:
-	cd /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.o
-.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.o
+__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj:
+	cd /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
 
 __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.i: __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.i
 .PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.i
@@ -202,13 +202,13 @@ __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.s:
 	cd /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.s
 .PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.s
 
-__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o: __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.o
-.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o
+__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.obj: __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.obj
 
 # target to build an object file
-__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.o:
-	cd /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.o
-.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.o
+__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj:
+	cd /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
 
 __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.i: __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.i
 .PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.i
@@ -226,13 +226,13 @@ __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.s:
 	cd /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.s
 .PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.s
 
-__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o: __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.o
-.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o
+__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.obj: __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj
+.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.obj
 
 # target to build an object file
-__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.o:
-	cd /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.o
-.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.o
+__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj:
+	cd /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj
+.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj
 
 __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.i: __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.i
 .PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.i
@@ -250,13 +250,13 @@ __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.s:
 	cd /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.s
 .PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.s
 
-__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o: __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.o
-.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o
+__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.obj: __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj
+.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.obj
 
 # target to build an object file
-__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.o:
-	cd /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.o
-.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.o
+__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj:
+	cd /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj
+.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj
 
 __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.i: __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.i
 .PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.i
@@ -274,13 +274,13 @@ __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.s:
 	cd /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.s
 .PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.s
 
-__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o: __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.o
-.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o
+__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.obj: __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj
+.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.obj
 
 # target to build an object file
-__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.o:
-	cd /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.o
-.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.o
+__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj:
+	cd /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj
+.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj
 
 __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.i: __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.i
 .PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.i
@@ -298,13 +298,13 @@ __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.s:
 	cd /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.s
 .PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.s
 
-__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o: __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.o
-.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
+__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.obj: __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.obj
 
 # target to build an object file
-__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.o:
-	cd /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.o
-.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.o
+__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj:
+	cd /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
 
 __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.i: __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.i
 .PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.i
@@ -322,13 +322,13 @@ __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.s:
 	cd /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.s
 .PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.s
 
-__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o: __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.o
-.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o
+__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.obj: __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj
+.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.obj
 
 # target to build an object file
-__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.o:
-	cd /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.o
-.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.o
+__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj:
+	cd /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj
+.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj
 
 __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.i: __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.i
 .PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.i
@@ -346,13 +346,13 @@ __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.s:
 	cd /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.s
 .PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.s
 
-__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o: __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.o
-.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o
+__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.obj: __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj
+.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.obj
 
 # target to build an object file
-__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.o:
-	cd /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.o
-.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.o
+__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj:
+	cd /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj
+.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj
 
 __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.i: __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.i
 .PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.i
@@ -370,13 +370,13 @@ __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.s:
 	cd /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.s
 .PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.s
 
-__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o: __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.o
-.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
+__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.obj: __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.obj
 
 # target to build an object file
-__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.o:
-	cd /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.o
-.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.o
+__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj:
+	cd /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
 
 __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.i: __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.i
 .PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.i
@@ -394,13 +394,13 @@ __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.s:
 	cd /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.s
 .PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.s
 
-__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o: __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.o
-.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o
+__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.obj: __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
+.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.obj
 
 # target to build an object file
-__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.o:
-	cd /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.o
-.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.o
+__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj:
+	cd /home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
+.PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
 
 __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.i: __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.i
 .PHONY : __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.i
@@ -427,40 +427,40 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... STM32_Drivers"
-	@echo "... __/__/Core/Src/system_stm32f1xx.o"
+	@echo "... __/__/Core/Src/system_stm32f1xx.obj"
 	@echo "... __/__/Core/Src/system_stm32f1xx.i"
 	@echo "... __/__/Core/Src/system_stm32f1xx.s"
-	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o"
+	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.obj"
 	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.i"
 	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.s"
-	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o"
+	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.obj"
 	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.i"
 	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.s"
-	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o"
+	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.obj"
 	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.i"
 	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.s"
-	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o"
+	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.obj"
 	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.i"
 	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.s"
-	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o"
+	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.obj"
 	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.i"
 	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.s"
-	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o"
+	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.obj"
 	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.i"
 	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.s"
-	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o"
+	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.obj"
 	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.i"
 	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.s"
-	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o"
+	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.obj"
 	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.i"
 	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.s"
-	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o"
+	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.obj"
 	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.i"
 	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.s"
-	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o"
+	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.obj"
 	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.i"
 	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.s"
-	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o"
+	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.obj"
 	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.i"
 	@echo "... __/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.s"
 .PHONY : help

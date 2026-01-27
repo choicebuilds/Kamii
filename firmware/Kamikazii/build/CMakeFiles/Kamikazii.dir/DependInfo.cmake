@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/startup_stm32f103xb.s" "/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/CMakeFiles/Kamikazii.dir/startup_stm32f103xb.s.o"
+  "/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/startup_stm32f103xb.s" "/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/build/CMakeFiles/Kamikazii.dir/startup_stm32f103xb.s.obj"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
@@ -30,11 +30,11 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/main.c" "CMakeFiles/Kamikazii.dir/Core/Src/main.c.o" "gcc" "CMakeFiles/Kamikazii.dir/Core/Src/main.c.o.d"
-  "/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/stm32f1xx_hal_msp.c" "CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_hal_msp.c.o" "gcc" "CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_hal_msp.c.o.d"
-  "/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/stm32f1xx_it.c" "CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_it.c.o" "gcc" "CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_it.c.o.d"
-  "/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/syscalls.c" "CMakeFiles/Kamikazii.dir/Core/Src/syscalls.c.o" "gcc" "CMakeFiles/Kamikazii.dir/Core/Src/syscalls.c.o.d"
-  "/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/sysmem.c" "CMakeFiles/Kamikazii.dir/Core/Src/sysmem.c.o" "gcc" "CMakeFiles/Kamikazii.dir/Core/Src/sysmem.c.o.d"
+  "/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/main.c" "CMakeFiles/Kamikazii.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/Kamikazii.dir/Core/Src/main.c.obj.d"
+  "/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/stm32f1xx_hal_msp.c" "CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_hal_msp.c.obj" "gcc" "CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_hal_msp.c.obj.d"
+  "/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/stm32f1xx_it.c" "CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_it.c.obj" "gcc" "CMakeFiles/Kamikazii.dir/Core/Src/stm32f1xx_it.c.obj.d"
+  "/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/syscalls.c" "CMakeFiles/Kamikazii.dir/Core/Src/syscalls.c.obj" "gcc" "CMakeFiles/Kamikazii.dir/Core/Src/syscalls.c.obj.d"
+  "/home/choicebuilds/Documents/Github/Kamii/firmware/Kamikazii/Core/Src/sysmem.c" "CMakeFiles/Kamikazii.dir/Core/Src/sysmem.c.obj" "gcc" "CMakeFiles/Kamikazii.dir/Core/Src/sysmem.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
